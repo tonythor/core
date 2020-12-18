@@ -1,0 +1,23 @@
+name: core 
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - ipython
+  - pip:
+    - setuptools
+    - wheel
+    - awscli
+    - awswrangler
+    - python-snappy
+    - pyarrow
+    - Cython
+    - cachetools
+    - fastparquet
+    - requests
+    - tabulate
+    - pprint
+    - pyspark
+
+
